@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['$help','Type $help'];
+    var setGame = ['Hack by Mahdi','	Hack BY Mahdi'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -304,7 +304,7 @@ client.on('message', function(msg) {
             .addField('``Users``' ,`[ ${client.users.size} ]` , true)
             .addField('``My Name``' , `[ ${client.user.tag} ]` , true)
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
-			      .addField('``My Prefix``' , `[ ! ]` , true)
+			      .addField('``My Prefix``' , `[ mahdi hack]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
 			      .setFooter('By | 3bker')
     })
